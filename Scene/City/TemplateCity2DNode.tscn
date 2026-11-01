@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://crjnjvceiandy"]
+
+[ext_resource type="Script" uid="uid://dvt2dpvv3ogy1" path="res://Scene/City/TemplateCity2dNodeScript.cs" id="1_ua1qj"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5m1p5"]
+
+[node name="TemplateCity2dNode" type="Node" unique_id=1918459251]
+script = ExtResource("1_ua1qj")
+
+[node name="CityName" type="Label" parent="." unique_id=1334391537]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1160486520]
+
+[node name="Area2D" type="Area2D" parent="." unique_id=685152793]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=333095817]
+shape = SubResource("RectangleShape2D_5m1p5")

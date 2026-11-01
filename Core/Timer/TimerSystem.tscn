@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://dv48mul4sbf7l"]
+
+[ext_resource type="Script" uid="uid://dx6frthb4oj78" path="res://Core/Timer/TimerSystem.cs" id="1_q4p4s"]
+
+[node name="TimerSystem" type="Node" unique_id=137316198]
+script = ExtResource("1_q4p4s")
+
+[node name="MyTimer" type="Timer" parent="." unique_id=685705970]
+process_callback = 0
+wait_time = 10.0
+autostart = true

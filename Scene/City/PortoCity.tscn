@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://cxt332vu2nby5"]
+
+[ext_resource type="PackedScene" uid="uid://crjnjvceiandy" path="res://Scene/City/TemplateCity2DNode.tscn" id="1_wqe3v"]
+
+[node name="PortoCity" type="Node" unique_id=449042481]
+
+[node name="TemplateCity2dNode" parent="." unique_id=1918459251 instance=ExtResource("1_wqe3v")]
